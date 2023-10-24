@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "net.pottx.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AbstractSkeletonEntityMixin",
+    "DrownedEntityMixin",
+    "GhastEntityMixin",
+    "PillagerEntityMixin",
+    "PlayerEntityMixin",
+    "ShootFireballGoalMixin",
+    "SnowGolemEntityMixin",
+    "WitchEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
